@@ -1,0 +1,29 @@
+/* Write your code here. */
+.list-item {
+  list-style-type: none;
+  margin: 4px;
+}
+@media screen and(min-width:998px) {
+  .thumbnail {
+    height: 90px;
+    width: 90px;
+    opacity: 0.5;
+  }
+}
+.thumbnail {
+  height: 60px;
+  width: 60px;
+  opacity: 0.5;
+}
+.active {
+  opacity: 1;
+}
+.img-btn {
+  border: none;
+  height: 60px;
+  width: 60px;
+  text-align: center;
+  background-color: #ffffff;
+  cursor: pointer;
+  outline: none;
+}
